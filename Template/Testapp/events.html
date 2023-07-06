@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Modal gallery -->
+<section class="">
+    <!-- Section: Images -->
+    
+    <!-- Section: Images -->
+  
+    <!-- Section: Modals -->
+    <section class="">
+      <!-- Modal 1 -->
+      <div
+        class="modal fade"
+        id="exampleModal1"
+        tabindex="-1"
+        aria-labelledby="exampleModal1Label"
+        aria-hidden="true" >
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="ratio ratio-16x9">
+              <iframe
+                src="https://vmax-vedio-library.s3.eu-west-1.amazonaws.com//Users/salmandesai/Python/Django-Project/firstProject/static/S3upload/vedio1.mp4"
+                title="YouTube video"
+                allowfullscreen
+              ></iframe>
+            </div>
+  
+            
+        </div>
+      </div>
+      <!-- Modal 2 -->
+      <div
+        class="modal fade"
+        id="exampleModal2"
+        tabindex="-1"
+        aria-labelledby="exampleModal2Label"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="ratio ratio-16x9">
+              <iframe
+                src="https://www.youtube.com/embed/wTcNtgA6gHs"
+                title="YouTube video"
+                allowfullscreen
+              ></iframe>
+            </div>
+  
+           
+        </div>
+      </div>
+      <!-- Modal 3 -->
+      <div
+        class="modal fade"
+        id="exampleModal3"
+        tabindex="-1"
+        aria-labelledby="exampleModal3Label"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="ratio ratio-16x9">
+              <iframe
+                src="https://www.youtube.com/embed/vlDzYIIOYmM"
+                title="YouTube video"
+                allowfullscreen
+              ></iframe>
+            </div>
+  
+           
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Section: Modals -->
+  </section>
+  <!-- Modal gallery -->
+  <div>
+    <h3>Upload your file here:</h3>
+    <form action="/upload/" method="POST">
+      <input type="file" name="file">
+      <input type="submit" value="upload">
+    </form>
+  </div>
+</body>
+</html>
